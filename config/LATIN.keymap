@@ -589,7 +589,7 @@
 
             bindings = <
            &kp N1       &kp W       &kp F        &kp P        &kp B 
-           &mt LGUI A  &mt LALT R  &mo 1  &mt LSHFT T  &kp G 
+           &mt LGUI A  &mt LALT R  &mo 1  &mt LSHFT T  &mo 1
            &en_comma  &kp Z       &kp X       &kp C        &kp D 
            &lt 8 ESC    &lt 5 SPACE  &lt 7 TAB    &lt 11 RET  &lt 9 BSPC 
             >;
@@ -597,7 +597,7 @@
 
         ru_layer_linux {
             bindings = <
-           &kp Q         &out OUT_BLE            &out OUT_USB              &kp R                &kp T 
+           &kp Q         &out OUT_BLE            &out OUT_USB              &kp R                &out OUT_USB 
            &bt_0         &bt_1                    &hrml LCTRL D      &mt LSHFT F          &kp G              
             &ru_comma  &kp Z         &kp X         &kp C              &kp V     
             &lt_unshift 8 ESC  &lt_unshift 6 SPACE  &lt_unshift 7 TAB    &lt_unshift 12 RET  &lt 10 BSPC 
