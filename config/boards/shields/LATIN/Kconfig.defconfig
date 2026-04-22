@@ -6,13 +6,4 @@ if SHIELD_LATIN
 config ZMK_KEYBOARD_NAME
     default "Latin-Xiao_ble"
     
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-
-config ZMK_SPLIT
-    default n
-
 endif
